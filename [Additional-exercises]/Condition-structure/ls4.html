@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viết chương trình nhập vào điểm toán, điểm lý và điểm hóa của một học sinh,
+         tính và in ra điểm trung bình của học sinh đó. Nếu điểm trung bình lớn hơn hoặc
+          bằng 6 thì in ra "Đậu", ngược lại in ra "Ở lại lớp".</title>
+</head>
+<body>
+    <script>
+        math = +prompt(" Nhập vào điểm toán: ");
+        physics = +prompt("Nhập vào điểm Lý: ");
+        chemistry = +prompt("Nhập vào điểm Hóa: ");
+        evarage = (math + physics + chemistry ) /3
+        alert("Điểm trung bình của học sinh là: " + evarage.toFixed(2))
+        if (evarage >= 6){
+            alert("Đậu!");
+        }else{
+            alert ("ở lại lớp!")
+        }
+
+    </script>
+</body>
+</html>

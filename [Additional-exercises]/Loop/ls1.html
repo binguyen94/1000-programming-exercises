@@ -5,18 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tính S(n) = 1 + 2 + 3 + … + n </title>
+    <title>Viết một chương trình JavaScript
+        sử dụng vòng lặp for để tính tổng các số từ 1 đến 10.</title>
 </head>
 
 <body>
     <script>
-        let number = +prompt("Nhập số n cần tính: ");
         let sum = 0;
-
-        for (let i = 1; i <= number; i++) {
+        for (i = 1; i <= 10; i++) {
             sum += i;
         }
-        document.write("Tổng của các số từ 1 đến " + number + " là: " + sum);
+        alert("Tổng các số từ 1 đến 10 là: " + sum)
     </script>
 </body>
 

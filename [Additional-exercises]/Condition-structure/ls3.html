@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viết chương trình nhập vào ba số, tìm và in ra số lớn nhất trong ba số đó.</title>
+</head>
+<body>
+    <script>
+        num1 = +prompt(" Nhập số thứ nhất: ");
+        num2 = +prompt(" Nhập số thứ hai: ");
+        num3 = +prompt(" Nhập số thứ ba: ");
+        if ( num1>num2){
+            if ( num1> num3){
+                alert( "Số lớn nhất trong ba số là: " + num1);
+            }else {
+                alert( "Số lớn nhất trong ba số là: " + num3);
+            }
+        } else {
+            if ( num2 > num3 ){
+            alert ( "Số lớn nhất trong ba số là: " + num2 );
+            }else {
+            alert ( "Số lớn nhất trong ba số là: " + num3);
+            }
+        }
+
+        // let max = num1;
+        // if (num2 > max) {
+        // max = num2;
+        // }
+        // if (num3 > max) {
+        // max = num3;
+        // }
+        // alert("Số lớn nhất trong ba số là: " + max);
+    </script>
+</body>
+</html>
